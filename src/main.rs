@@ -1,3 +1,8 @@
+use colored::Colorize;
+use proverb::bestow_wisdom;
+
+mod proverb;
+
 fn main() {
-  println!("i will be a terminal utility to print you a chinese proverb");
+  println!("{}", bestow_wisdom().italic().white());
 }
