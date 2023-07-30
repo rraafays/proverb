@@ -5,7 +5,7 @@ pub fn bestow_wisdom() -> String {
   return PROVERBS[random_number.gen_range(0..PROVERBS.len())].to_owned();
 }
 
-const PROVERBS: [&str; 40] = [
+const PROVERBS: [&str; 55] = [
   "fate has us meet from a thousand miles away",
   "hold your hand and grow old with you",
   "having love, drinking water will fill you up, without love, eating food will leave you hungry",
@@ -46,4 +46,19 @@ const PROVERBS: [&str; 40] = [
   "we count our miseries carefully, and accept our blessings without much thought",
   "you won't help shoots grow by pulling them up higher",
   "patience is a bitter plant, but its fruit is sweet",
+  "if you are planning for a year, sow rice; if you are planning for a decade, plant trees; if you are planning for a lifetime, educate people",
+  "if your strength is small, don’t carry heavy burdens; if your words are worthless, don’t give advice",
+  "if you are patient in one moment of anger, you will escape a hundred days of sorrow",
+  "parents who are afraid to put their foot down usually have children who step on their toes",
+  "a diamond with a flaw is better than a common stone that is perfect",
+  "a bird does not sing because it has an answer, it sings because it has a song",
+  "a bit of fragrance clings to the hand that gives flowers",
+  "insanity is doing the same thing in the same way and expecting a different outcome",
+  "all things are difficult before they are easy",
+  "time is money, and it is difficult for one to use money to get time",
+  "opportunity knocks at the door only once",
+  "tell me and i’ll forget; show me and i may remember; involve me and i’ll understand",
+  "make happy those who are near, and those who are far will come",
+  "one generation plants the trees, and another gets the shade",
+  "there are many paths to the top of the mountain, but the view is always the same",
 ];
