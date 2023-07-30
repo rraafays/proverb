@@ -1,6 +1,6 @@
 [package]
 name = "proverb"
-version = "0.1.1"
+version = "0.1.2"
 edition = "2021"
 description = "terminal utility to print a proverb"
 license = "MIT"
