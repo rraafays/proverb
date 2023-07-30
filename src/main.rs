@@ -4,5 +4,5 @@ use proverb::bestow_wisdom;
 mod proverb;
 
 fn main() {
-  println!("{}", bestow_wisdom().italic().white());
+  println!("{}", bestow_wisdom().white());
 }
