@@ -57,7 +57,7 @@ const PROVERBS: [&str; 55] = [
   "all things are difficult before they are easy",
   "time is money, and it is difficult for one to use money to get time",
   "opportunity knocks at the door only once",
-  "tell me and i’ll forget; show me and i may remember; involve me and i’ll understand",
+  "tell me and i'll forget; show me and i may remember; involve me and i'll understand",
   "make happy those who are near, and those who are far will come",
   "one generation plants the trees, and another gets the shade",
   "there are many paths to the top of the mountain, but the view is always the same",
