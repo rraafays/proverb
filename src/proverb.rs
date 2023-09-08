@@ -5,7 +5,7 @@ pub fn bestow_wisdom() -> String {
   return PROVERBS[random_number.gen_range(0..PROVERBS.len())].to_owned();
 }
 
-const PROVERBS: [&str; 55] = [
+const PROVERBS: [&str; 77] = [
   "fate has us meet from a thousand miles away",
   "hold your hand and grow old with you",
   "having love, drinking water will fill you up, without love, eating food will leave you hungry",
@@ -61,4 +61,26 @@ const PROVERBS: [&str; 55] = [
   "make happy those who are near, and those who are far will come",
   "one generation plants the trees, and another gets the shade",
   "there are many paths to the top of the mountain, but the view is always the same",
+  "truth is more valuable if it takes you a few years to find it",
+  "there is no shame in not knowing; the shame lies in not finding out",
+  "coffee and love taste best when hot",
+  "fall seven times, stand up eight",
+  "if you can’t live longer, live deeper",
+  "it takes a whole village to raise a child",
+  "turn your face toward the sun and the shadows fall behind you",
+  "some men go through a forest and see no firewood",
+  "the tree with most leaves will not necessarily produce juicy fruit",
+  "begin to weave and God will give the thread",
+  "even though you know a thousand things, ask the man who knows one",
+  "those who wish to sing always find a song",
+  "it’s not enough to learn how to ride, you must also learn how to fall",
+  "hunger is felt by a slave and hunger is felt by a king",
+  "even from a foe a man may learn wisdom",
+  "learning is just like sailing against the current; if you don’t advance, you will be driven back",
+  "nothing in the world is difficult for one who is determined enough to achieve it",
+  "learn no matter how old you grow",
+  "light travels like an arrow, and time like a shuttle",
+  "when you force a melon from the vines, it won’t be sweet",
+  "when you drink the water, remember the spring as the source of the water",
+  "misfortune tests the sincerity of friends",
 ];
