@@ -2,7 +2,11 @@ mod proverb;
 
 use colored::Colorize;
 use proverb::bestow_wisdom;
-use terminal_size::{terminal_size, Height, Width};
+use terminal_size::{
+    terminal_size,
+    Height,
+    Width,
+};
 
 fn main() {
     let dimensions = terminal_size();
