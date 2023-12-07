@@ -1,2 +1,4 @@
 /target
+debug
+release
 .DS_Store
